@@ -14,7 +14,7 @@ endif()
 #############
 option(OPTIMIZE_FOR_NATIVE "Enable -march=native" OFF)
 option(BUILD_TESTS "Build unit tests" OFF)
-option(BUILD_PYTHON_INTERFACE "Build Python interface" ON)
+option(BUILD_PYTHON_INTERFACE "Build Python interface" OFF)
 
 ###################
 ## Build robotoc ##

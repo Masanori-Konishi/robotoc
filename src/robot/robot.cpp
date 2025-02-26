@@ -96,6 +96,21 @@ Robot::Robot()
     upper_joint_position_limit_() {
 }
 
+  // add rotor_inertia
+  void Robot::add_armature(Eigen::VectorXd armature_vector) {
+    typedef Eigen::Matrix<double, Eigen::Dynamic, 1> VectorXs;
+    VectorXs vec(model_.nv);
+    vec.head(6).setZero();
+    vec.tail(model_.nv - 6) << armature_vector;
+
+    // std::cerr<<"[debug robotoc] vec="<<vec<<std::endl;
+
+    // loadArmatureFromURDF(info.urdf_path, model_);
+
+    model_.armature = vec;//debug
+    std::cerr << "[robotoc debug robot.cpp robot constructer] Armature: " << model_.armature.transpose() << std::endl;
+
+  }
 
 const Eigen::Vector3d& Robot::framePosition(const int frame_id) const {
   return data_.oMf[frame_id].translation();

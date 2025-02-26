@@ -899,6 +899,8 @@ public:
   ///
   void setRobotProperties(const RobotProperties& properties);
 
+  void add_armature(Eigen::VectorXd armature_vector);
+
   ///
   /// @brief Displays the robot model onto a ostream.
   ///
