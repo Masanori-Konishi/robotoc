@@ -124,7 +124,7 @@ Robot::Robot()
 
     impact_model_.armature = vec;//debug
     std::cerr << "[robotoc debug robot.cpp robot constructer] Armature: " << impact_model_.armature.transpose() << std::endl;
-
+https://gitlab.jsk.imi.i.u-tokyo.ac.jp/konishi/rl_backflip/-/tree/refactoring?ref_type=heads
   }
 
 const Eigen::Vector3d& Robot::framePosition(const int frame_id) const {
