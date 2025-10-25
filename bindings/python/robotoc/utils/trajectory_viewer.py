@@ -101,7 +101,7 @@ class TrajectoryViewer:
                         f.append(f_traj[i])
                 f.append(f_traj[-2])
         else:
-            dt = time_discretization
+            dt = [gi.dt for gi in time_discretization]
             q = q_traj
             f = f_traj
         if self.viewer_type == 'gepetto':
