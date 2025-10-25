@@ -1,3 +1,5 @@
+pybind11_add_robotoc_subpackage(core)
+
 pybind11_add_robotoc_module(core split_solution)
 pybind11_add_robotoc_module(core split_direction)
 pybind11_add_robotoc_module(core split_kkt_residual)

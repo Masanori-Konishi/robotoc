@@ -1,3 +1,5 @@
+pybind11_add_robotoc_subpackage(robot)
+
 pybind11_add_robotoc_module(robot contact_status)
 pybind11_add_robotoc_module(robot impact_status)
 pybind11_add_robotoc_module(robot se3)
