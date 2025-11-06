@@ -1,3 +1,5 @@
+pybind11_add_robotoc_subpackage(ocp)
+
 pybind11_add_robotoc_module(ocp grid_info)
 pybind11_add_robotoc_module(ocp discretization_method)
 pybind11_add_robotoc_module(ocp time_discretization)

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>robotoc</name>
+  <version>1.0.0</version>
+  <description>efficient ROBOT Optimal Control solvers</description>
+
+  <maintainer email="konishi@jsk.imi.i.u-tokyo.ac.jp">Masanori Konishi</maintainer>
+  <maintainer email="k-kojima@jsk.imi.i.u-tokyo.ac.jp">Kunio Kojima</maintainer>
+  <license>BSD 3-Clause</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>python3-setuptools</buildtool_depend>
+
+  <exec_depend>python3</exec_depend>
+  <exec_depend>python3-numpy</exec_depend>
+  <exec_depend>python3-setuptools</exec_depend>
+
+  <!-- <exec_depend>pinocchio</exec_depend> -->
+
+  <export>
+  </export>
+</package>

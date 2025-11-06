@@ -1,3 +1,5 @@
+pybind11_add_robotoc_subpackage(utils)
+
 pybind11_add_robotoc_module(utils rotation)
 
 install_robotoc_python_files(utils)

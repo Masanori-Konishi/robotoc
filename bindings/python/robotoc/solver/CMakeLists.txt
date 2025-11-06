@@ -1,3 +1,5 @@
+pybind11_add_robotoc_subpackage(solver)
+
 pybind11_add_robotoc_module(solver interpolation_order)
 pybind11_add_robotoc_module(solver solver_options)
 pybind11_add_robotoc_module(solver solver_statistics)

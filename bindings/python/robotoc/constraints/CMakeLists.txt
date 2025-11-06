@@ -1,3 +1,5 @@
+pybind11_add_robotoc_subpackage(constraints)
+
 pybind11_add_robotoc_module(constraints constraint_component_base)
 pybind11_add_robotoc_module(constraints impact_constraint_component_base)
 pybind11_add_robotoc_module(constraints constraints)

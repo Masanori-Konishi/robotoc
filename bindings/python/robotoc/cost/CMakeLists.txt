@@ -1,3 +1,5 @@
+pybind11_add_robotoc_subpackage(cost)
+
 pybind11_add_robotoc_module(cost cost_function)
 pybind11_add_robotoc_module(cost cost_function_component_base)
 pybind11_add_robotoc_module(cost cost_function_data)

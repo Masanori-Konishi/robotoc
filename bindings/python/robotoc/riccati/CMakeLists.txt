@@ -1,3 +1,5 @@
+pybind11_add_robotoc_subpackage(riccati)
+
 pybind11_add_robotoc_module(riccati lqr_policy)
 pybind11_add_robotoc_module(riccati split_riccati_factorization)
 

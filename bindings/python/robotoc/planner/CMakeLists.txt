@@ -1,3 +1,5 @@
+pybind11_add_robotoc_subpackage(planner)
+
 pybind11_add_robotoc_module(planner discrete_event)
 pybind11_add_robotoc_module(planner contact_sequence)
 
